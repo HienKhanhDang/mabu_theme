@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+     <!-- font awesome link -->
+     <script src="https://kit.fontawesome.com/21ae0a5d46.js" crossorigin="anonymous"></script>
+     <!--custom css file link  -->
+     <link rel="stylesheet" href="./css/style.css">
+    <title>Ma Bu</title>
+</head>
+<body>
+    <!-- header section start -->
+<header class="header">
+    <div class="logo">
+        <img src="./images/logo.png" />
+        <p>Ma Bư</p>
+    </div>
+    <!-- <a href="#" class="logo"><img src="./images/logo.png" /><span>Ma Bư</span></a> -->
+    <nav class="navbar">
+        <a href="#home">trang chủ</a>
+        <a href="#features">hot sales</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#categories">đồ uống</a>
+        <a href="#reviews">bình luận</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fa-sharp fa-solid fa-heart" id="favourite-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="./images/cart-imag1.jpg" alt="">
+            <div class="content">
+                <h3>CƠM SƯỜN</h3>
+                <span class="price">59.000 ₫/-</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="./images/cart-imag2.jpg" alt="">
+            <div class="content">
+                <h3>CƠM SƯỜN TRỨNG</h3>
+                <span class="price">65.000 ₫/-</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="./images/cart-imag3.jpg" alt="">
+            <div class="content">
+                <h3>CƠM SƯỜN BÌ</h3>
+                <span class="price">67.000 ₫/-</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="total">total: 183.000 ₫/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#"> click here</a></p>
+        <p>don't have an account <a href="#"> create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+    <!-- header section ends -->
+    <!--home section start  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span> organic </span> products for your</h3>
+            <p>Tiệm cơm nho nhỏ giữa Xì Gòn to to của bé bự Ma Bư! Điểm đến yêu thích của những tín đồ cơm tấm!</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+  <!--home section ends  -->
+  <!-- features section start -->
+    <section class="features" id="features">
+        <h1 class="heading"> hot <span>sales</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/cart-imag4.jpg" alt="">
+                <h3>CƠM SƯỜN CHẢ TRỨNG</h3>
+                <p>75.000 ₫ <span>87.000 ₫</span></p>
+                <p>Sức hấp dẫn đến từ bộ ba Sườn - Bì - Chả, quyện cùng cơm tấm dẻo dai nóng hổi chan miếng mỡ hành béo ngậy và tóp mỡ giòn rụm cho độ ngon không cần phải nhiều lời.</p>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <img src="./images/cart-imag5.jpg" alt="">
+                <h3>CƠM SƯỜN BÌ CHẢ</h3>
+                <p>79.000 ₫ <span>95.000 ₫</span></p>
+                <p>Đủ đầy hương vị đến từ những góc phố Xì-gòn: cơm tơi dẻo thơm, sườn dày mềm, bì dai dai, chả trứng đậm đà và ốp la lòng đào sánh chảy, không thể thiếu tóp mỡ béo ngậy và chút đồ chua tươi giòn.</p>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <img src="./images/cart-imag6.jpg" alt="">
+                <h3>CƠM SƯỜN BÌ CHẢ TRỨNG</h3>
+                <p>75.000 ₫ <span>87.000 ₫</span></p>
+                <p>Sườn to cắt miếng vừa ăn, chả dày đậm đà và trứng lòng đào giòn viền, cơm tấm trắng dẻo mềm chan mỡ hành tóp mỡ giòn rụm, đừng quên đồ chua tươi giòn không chỗ nào chê.</p>
+                <a href="#" class="btn">order now</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- features section ends -->
+   <!-- product section start -->
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag1.jpg" alt="">
+                    <h3>CƠM SƯỜN</h3>
+                    <div class="price">59.000 ₫ <span>69.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag2.jpg" alt="">
+                    <h3>CƠM SƯỜN TRỨNG</h3>
+                    <div class="price">65.000 ₫ <span>77.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag3.jpg" alt="">
+                    <h3>CƠM SƯỜN BÌ</h3>
+                    <div class="price">67.000 ₫ <span>79.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag4.jpg" alt="">
+                    <h3>CƠM SƯỜN CHẢ</h3>
+                    <div class="price">67.000 ₫ <span>79.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag5.jpg" alt="">
+                    <h3>CƠM SƯỜN CHẢ TRỨNG</h3>
+                    <div class="price">75.000 ₫ <span>87.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag6.jpg" alt="">
+                    <h3>CƠM SƯỜN TRỨNG</h3>
+                    <div class="price">65.000 ₫ <span>77.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag1.jpg" alt="">
+                    <h3>CƠM SƯỜN BÌ CHẢ TRỨNG</h3>
+                    <div class="price">79.000 ₫ <span>95.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./images/cart-imag7.jpg" alt="">
+                    <h3>BÚN THỊT NƯỚNG, CHẢ GIÒ</h3>
+                    <div class="price">49.000 ₫ <span>59.000 ₫</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- product section ends -->
+<!-- categories section starts -->
+<section class="categories" id="categories">
+    <h1 class="heading"> drink <span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./images/cart-imag8.jpg" alt="">
+            <h3>NƯỚC SUỐI ALBA 350ML</h3>
+            <p>15.000 ₫</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <img src="./images/cart-imag9.jpg" alt="">
+            <h3>SODA LON 330ML</h3>
+            <p>15.000 ₫</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <img src="./images/cart-imag10.jpg" alt="">
+            <h3>PEPSI LON 330ML</h3>
+            <p>17.000 ₫</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <img src="./images/cart-imag11.jpg" alt="">
+            <h3>7UP LON 330ML</h3>
+            <p>17.000 ₫</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <img src="./images/cart-imag12.jpg" alt="">
+            <h3>PEACH BASIL SEED</h3>
+            <p>17.000 ₫</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <img src="./images/cart-imag13.jpg" alt="">
+            <h3>COCONUT WATER WITH PULP</h3>
+            <p>39.000 ₫</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+    </div>
+</section>
+
+<!-- categories section ends -->
+<!-- review section start -->
+<section class="review" id="reviews">
+    <h1 class="heading"> customer's <span>reviews</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="./images/review2.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni architecto hic maxime quis ratione doloremque perspiciatis culpa quasi et!</p>
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/review6.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni architecto hic maxime quis ratione doloremque perspiciatis culpa quasi et!</p>
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/review5.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni architecto hic maxime quis ratione doloremque perspiciatis culpa quasi et!</p>
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/review4.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni architecto hic maxime quis ratione doloremque perspiciatis culpa quasi et!</p>
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/review1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni architecto hic maxime quis ratione doloremque perspiciatis culpa quasi et!</p>
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./images/review3.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni architecto hic maxime quis ratione doloremque perspiciatis culpa quasi et!</p>
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- review section ends -->
+<!-- blog section start -->
+<section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./images/blog1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 1st may, 2022</a>
+                </div>
+                <h3>đi ăn thôi bà!</h3>
+                <p>Giọt mưa vội vã, đường xá lụt lội, còn tôi thì vẫn ngồi trên văn phòng ngáp ngắn ngáp dài với chiếc bụng đói kêu ọt ọt vang vọng cả một góc trời. Nghĩ tới việc phải tham gia giải bơi lội mở rộng, băng qua dòng xe tấp nập để về nhà nấu nướng, tôi nhanh trí đặt cơm tấm nóng hổi của Ma Bư chỉ có 59 cành! </p>
+                <a href="#" class="btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/blog2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 1st may, 2022</a>
+                </div>
+                <h3>Free ship đơn hàng 100k</h3>
+                <p>
+                    Ở Sài Gòn có một đặc sản, đó là những ma trận hẻm chằng chịt, ngoằn nghèo như đường vào tim crush! Yên tâm vì dù nhà bạn có ở đâu, anh shipper Ma Bư vẫn sẽ tìm ra và mang đến bạn một hộp cơm tấm thơm ngon, nóng hổi!</p>
+                <a href="#" class="btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./images/blog3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i> 1st may, 2022</a>
+                </div>
+                <h3>BÚN THỊT NƯỚNG</h3>
+                <p>Bún thịt nướng ra đời từ đó. Miếng chả giò giòn rụm còn lại sau đám tiệc, thịt nướng bếp than dậy mùi thơm lừng, đồ chua sẵn trong bếp còn rau sẵn ngoài vườn, thành tô bún ngon nhớ hoài hổng có quên nổi.
+                </p>
+                <a href="#" class="btn">read more <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            </div>
+        </div>
+       
+    </div>
+</section>
+<!-- blog section ends -->
+<!-- footer section starts -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <div class="logofooter">
+                <h3>Ma Bu</h3>
+                <img src="./images/logo.png" >
+            </div>
+            <p>Ma Bư gọi là có! ăn là nghiền, ngại gì mà không thử ???</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i> + 123-456-789</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i> + 111-222-3333</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i>  @mabucomtam@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> hcm, viet nam - 70000</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> trang chủ</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> hot sales</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> sản phẩm</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> đồ uống</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> bình luận</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> blogs</a>
+            
+        </div>
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="./images/payment.png" class="payment-img" alt="">
+        </div>
+    </div>
+    <div class="credit"> created by <span> hien khanh dang </span> | all reserved</div>
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js link -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
